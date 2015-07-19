@@ -1,0 +1,186 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/friendsr"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:text="@string/intro"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="9"
+        android:columnCount="2"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/chandlerImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:padding="5dp"
+            android:src="@mipmap/chandlerpreview"
+            />
+
+        <ImageView
+            android:id="@+id/joeyImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:padding="5dp"
+            android:src="@mipmap/joeypreview"
+            />
+
+        <TextView
+            android:id="@+id/chandler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chandler"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/joey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/joey"
+            android:layout_gravity="center"/>
+
+        <RatingBar
+            android:id="@+id/chandlerRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:layout_gravity="center"
+            android:isIndicator="true"
+            android:stepSize="1"
+            style="?android:attr/ratingBarStyleSmall" />
+
+        <RatingBar
+            android:id="@+id/joeyRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:layout_gravity="center"
+            android:isIndicator="true"
+            android:stepSize="1"
+            style="?android:attr/ratingBarStyleSmall" />
+
+        <ImageView
+            android:id="@+id/monicaImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:padding="5dp"
+            android:src="@mipmap/monicapreview"
+            />
+
+        <ImageView
+            android:id="@+id/phoebeImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:padding="5dp"
+            android:src="@mipmap/phoebepreview"
+            />
+
+        <TextView
+            android:id="@+id/monica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/monica"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/phoebe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phoebe"
+            android:layout_gravity="center"/>
+
+        <RatingBar
+            android:id="@+id/monicaRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:layout_gravity="center"
+            android:isIndicator="true"
+            android:stepSize="1"
+            style="?android:attr/ratingBarStyleSmall" />
+
+        <RatingBar
+            android:id="@+id/phoebeRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:layout_gravity="center"
+            android:isIndicator="true"
+            android:stepSize="1"
+            style="?android:attr/ratingBarStyleSmall" />
+
+        <ImageView
+            android:id="@+id/rachelImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:padding="5dp"
+            android:src="@mipmap/rachelpreview"
+            />
+
+        <ImageView
+            android:id="@+id/rossImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:padding="5dp"
+            android:src="@mipmap/rosspreview"
+            />
+
+        <TextView
+            android:id="@+id/rachel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rachel"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/ross"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ross"
+            android:layout_gravity="center"/>
+
+        <RatingBar
+            android:id="@+id/rachelRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:layout_gravity="center"
+            android:isIndicator="true"
+            android:stepSize="1"
+            style="?android:attr/ratingBarStyleSmall" />
+
+        <RatingBar
+            android:id="@+id/rossRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:layout_gravity="center"
+            android:isIndicator="true"
+            android:stepSize="1"
+            style="?android:attr/ratingBarStyleSmall" />
+
+    </GridLayout>
+
+</LinearLayout>
